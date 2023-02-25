@@ -1,0 +1,70 @@
+.body{
+  margin: 10px;
+  padding: 0 7px 0 7px;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .toolbar{
+    background-color: black;
+    justify-content: center;
+    height: 7vh;
+  }
+.title{
+    /* background-color: black; */
+    color:white;
+    font-size: x-large;
+    
+}
+
+
+
+.example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+  background-color:lightgray;
+  color: black;
+}
+
+.example-disabled {
+  display: inline-block;
+}
+
+
+.example-disabled {
+  display: inline-block;
+}
+
+.football-icon{
+    display: flex;
+}
+
+.match_schedule{
+margin-left: 8%;
+
+}
+
+.table{
+  justify-content: center;
+  text-align: center;
+  width: 150vh;
+  
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.tdata>h1{
+  background-color: red;
+  color: #f4f4f4;
+  cursor: pointer;
+}
+
+.tdata>span{
+  cursor: pointer;
+}
+
+
+
+ 

@@ -1,0 +1,34 @@
+<div class="body">
+<p>
+    <mat-toolbar class="toolbar">
+      <span class="title" >Bet Builder Fixture</span>
+    </mat-toolbar>
+  </p>
+
+  <h2>Match Dates</h2>
+
+  <div class="example-button-row">
+    <button mat-fab extended color="primary" *ngFor="let date of dates" (click)="filter(date)" >
+    {{date | date:'EEE, d MMM '}}
+    </button>
+  </div>
+
+
+
+<div class="match_schedule">
+    <div class="football-icon mt-5">
+        <mat-icon>sports_baseball </mat-icon>
+        <h5>Football</h5>
+    </div>   
+</div>
+
+  
+<div class="container">
+<div class="table">
+  <div *ngFor="let fixture of fixtures" class="tdata">
+    <h1 >{{fixture.Country}}</h1>
+    <span routerLink="/matchdetails">{{fixture.MatchName}}</span>
+  </div>
+</div>
+</div>
+</div>
